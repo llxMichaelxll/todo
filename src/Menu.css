@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Days+One&display=swap');
+
+*{
+    list-style: none;
+}
+.Menu{
+    margin-top: 2px;
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid;
+    border-radius: 50px;
+    background-color: rgba(18, 17, 17, 0.801);
+    height: 10vh;
+}
+
+.Menu-b{
+    display: flex;
+    justify-content: center;
+}
+
+.Menu-b li{
+    margin: 20px;
+}
+.Menu-b li a{
+    color: rgba(18, 245, 18, 0.959);
+    font-size: 20px;
+    font-family: 'Days One', sans-serif;
+}
+.Logo{
+    margin-left: 15px;
+    margin-top: 5px;
+    width: 50px;
+    height: 50px;
+    border: 2px solid;
+    border-radius: 300px;
+    background-image: url('./assets/img/fondo-logo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+/* medias de pantallas*/
+
+@media only screen and (max-width: 600px) {
+  .Menu {
+    flex-direction: column;
+    align-items: center;
+    height: 16dvh;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+    .Menu {
+      flex-direction: column;
+      align-items: center;
+      height: 37dvh;
+    }
+    .Menu-b{
+        flex-direction: column;
+        align-items: center;
+    }
+}

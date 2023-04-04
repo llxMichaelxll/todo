@@ -1,0 +1,21 @@
+.abajo{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border: 2px solid;
+    border-radius: 50px;
+    background-color: rgba(18, 17, 17, 0.801);
+   
+}
+
+.abajo p{
+    color: rgba(18, 245, 18, 0.959);
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 100px;
+}
+.abajo a img{
+    width: 70px;
+    height: 70px;
+    margin-left: 10px;
+}

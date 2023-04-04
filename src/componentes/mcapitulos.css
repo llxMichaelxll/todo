@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Days+One&display=swap");
+
+.Capitulos {
+  display: flex;
+  flex-direction: column;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  height: 30dvh;
+}
+.url {
+  display: flex;
+}
+
+.Capitulos div {
+  display: flex;
+  flex-direction: column;
+  height: 20dvh;
+  border: 4px solid;
+  background-color: rgba(96, 130, 131, 0.459);
+  margin: 10px;
+}
+
+.Capitulos div h1 {
+  color: rgb(14, 211, 14);
+  font-family: "Days One", sans-serif;
+  font-size: 26px;
+}
+
+.urrl {
+  word-wrap: break-word;
+  font-family: "Days One", sans-serif;
+  font-size: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+  .Capitulos div {
+    height: 25dvh;
+    flex-direction: column;
+  }
+
+  @media only screen and (max-width: 400px) {
+    .Capitulos div {
+      height: 25dvh;
+      flex-direction: column;
+    }
+    .content {
+      height: 50dvh;
+    }
+  }
+}
